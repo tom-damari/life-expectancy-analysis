@@ -18,9 +18,9 @@ The project was completed in two major parts:
 **Submission Date:** January, 2023
 
 ## Dataset
-The dataset contains **101 countries**, each with multiple attributes related to public health, lifestyle, economic status, and environment.
-**Target Variable: `Life_expectancy` – Average life expectancy (in years) for each country.**
-
+The dataset covers **101 countries**, each with multiple attributes related to public health, lifestyle, environment, and economic status.
+- **Target Variable: `Life_expectancy` – Average life expectancy (in years) for each country.**
+  
 ### Features
 The dataset includes the following columns:
 - **`Country`**: Name of the country
@@ -35,11 +35,10 @@ The dataset includes the following columns:
 - **`Continent`**: Continent code (categorical)
 - **`Member_of_OECD`**: Indicates if the country is a member of the OECD (0/1)
 
-### Goal
-- Identify variables with the highest impact on life expectancy
-- Develop a reliable and interpretable linear regression model
-- Visualize and analyze correlations and potential interactions
-- Apply model selection techniques and validate model assumptions.
-- Apply model diagnostics and transformations to improve fit
-- Present data-driven insights that may guide public health or policy decisions.
-- 
+## Goals
+- - Identify key predictors of life expectancy
+- Build a reliable and interpretable linear regression model
+- Visualize feature distributions and relationships through EDA
+- Evaluate variable interactions and apply necessary transformations
+- Validate model assumptions and improve performance using diagnostics
+- Generate actionable, data-driven insights to inform public health and policy
